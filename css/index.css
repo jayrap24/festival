@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+
+}
+canvas {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+}
+.navbar{
+    background-color: transparent;
+    border: none;
+
+}
+
+.navbar-default .navbar-brand{
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    font-weight: 100;
+    margin-top: -16px;
+    letter-spacing: 2px;
+}
+
+i{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+i:hover{
+    color: grey;
+}
+
+
+
+#main{
+    text-align: center;
+    color: rgb(236, 236, 236);
+    background: transparent;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 140px;
+    width: 100%;
+}
+
+#main h1{
+    padding: 20px;
+    font-family: 'Palanquin', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#main p{
+   margin-bottom: 60px;
+   margin-top: -30px;
+}
+
+
+#main ul{
+   background: transparent;
+   width: 95%;
+   margin: auto;
+
+
+}
+
+#main ul li{
+    display: inline-block;
+    list-style: none; 
+    font-size: 3em;
+    padding: 4px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-family: 'Palanquin', sans-serif;
+    
+}
+
+#main ul li:hover{
+color: rgb(211, 211, 211);
+}
+
+
+#main ul li:nth-child(1), #main ul li:nth-child(9), #main ul li:nth-child(17){
+    font-size: 1.8em;
+    color: rgb(58, 58, 58);
+    font-weight: 100;
+    letter-spacing: -0.4px;
+}
+
+.about{
+    margin: 100px;
+    background: transparent;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Gochi Hand', cursive;
+    padding: 20px;
+    letter-spacing: -1px;
+    line-height: 80px;
+    color: rgb(236, 236, 236);
+    font-weight: 700;
+}
+
+
+
+
+
+.col-sm-6{
+    background: transparent;
+    height: 500px;
+    margin-top: 200px;
+   
+}
+
+.col-md-12{
+    height: 100%;
+}
+
+.info{
+    height:3000px;
+    background: transparent;
+}
+
+.col-md-12 img{
+    width: 100%;
+    height: 95%;
+}
+
+.description{
+    width: 100%;
+    height: 40%;
+    background: white;
+    color: rgb(58, 58, 58);
+    font-weight: 100;
+    text-align: left;
+    padding: 10px;
+    
+   
+}
+
+.description h3{
+    color: rgb(36, 36, 36);
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 22px;
+    
+}
+
+.description p{
+    color: rgb(58, 58, 58);
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+
+#feed{
+    height: 700px;
+    background: white;
+    margin-top: 600px;
+    position: relative;
+    padding: 20px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    color: rgb(175, 175, 175);
+
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: relative;
+   
+  }
+
+  .faq h3{
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      color: rgb(175, 175, 175);
+  }
+
+  .dropdown span{
+      padding: 10px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      color: black;
+      
+      
+  }
+
+  .dropdown p{
+    padding: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+  li{
+      list-style: none;
+      margin: 20px;
+  }
+
+  .footer{
+      background: transparent;
+      height: 60px;
+      margin-top: 300px;
+      position: relative;
+  }
+
+  .footer a{
+      float: right;
+      color: white;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: 100;
+      letter-spacing: 1px;
+      padding-top: 80px;
+      text-decoration: none;
+  }
+ 
+  #backToTop{
+      float: left;
+  }
+ 
+
+
+
+
+
+@media screen and (max-width: 640px) {
+        #main ul li{
+        font-size: 1.3em;
+        letter-spacing: 4px;
+        line-height: 10px;
+    }
+    .about{
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 500px;
+        margin-bottom: -100px;
+    }
+
+    .col-sm-6{
+       margin-top: 160px;
+    }
+
+    #feed{
+        height: 840px;
+        background: white;
+        margin-top: 600px;
+    }
+  }

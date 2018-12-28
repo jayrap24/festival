@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - geometry - cube</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Palanquin:100" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <style>
+         
+		</style>
+    </head>
+	<body>
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#feed">info</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+           
+             <i id="insta" class="fab fa-instagram"></i>
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="container" id="main" role="main">
+      <h1>Night + Day Festival</h1>
+      <p>July 9 to 11, 2018</p>
+        <ul class="artists" id="mainStage">
+            <li class="stage">Main Stage</li>
+            <li>Red Hot Chilli Peppers</li>
+            <li>Kendrick Lamar</li>
+            <li>Jamie XX</li>
+            <li>Odesza</li>
+            <li>Kid Cudi</li>
+            <li>Illenium</li>
+            <li>Migos</li>
+            <li class="stage">Outdoor Stage</li>
+            <li>The Weeknd</li>
+            <li>Skrillex</li>
+            <li>Porter Robinson</li>
+            <li>Madeon</li>
+            <li>Zhu</li>
+            <li>6lack</li>
+            <li>Miguel</li>
+            <li class="stage">Gobi Stage</li>
+            <li>Alan Walker</li>
+            <li>Drake</li>
+            <li>HS87</li>
+            <li>DJ Snake</li>
+            <li>Rufus</li>
+            <li>Carl Cox</li>
+        </ul>
+  </section>
+
+  <section class="container">
+      <div class="about">
+        <p>Night + Day Caribbean 9 - 11 July A week of music, cinema ,radio and parties curated by Ja Rule</p>
+    </div>
+  </section>
+
+  <section class="container" id="prices">
+        <div id="tickets" class="container-fluid text-center">
+                  <div class="col-sm-6" id="firstTickets">
+                        <div class="col-md-12">
+                            <img src="./img/1xx.png">
+                            <div class="description">
+                              <p>MUSEO GUGGENHEIM BILBAO / 11 JULY</p>
+                              <h3>Live music and DJs across 2 stages curated by Jamie xx.</h3>
+                            </div> 
+                        </div>
+                  </div>
+                  <div class="col-sm-6" id="secondTickets">
+                          <div class="col-md-12">
+                          <img src="./img/2xx.png">
+                          <div class="description">
+                            <p>KAFE ANTZOKIA / 10 JULY</p>
+                            <h3>7 julio a la venta en / sales at: Mercado dosdemayo y Power Records</h3>
+                          </div> 
+                      </div>
+                  </div>
+         
+                  <div class="col-sm-6" id="thirdTickets">
+                      <div class="col-md-12">
+                          <img src="./img/3xx.png">
+                          <div class="description">
+                            <p>BILBOROCK / 7-9 JULY</p>
+                            <h3>3 days of cinema at Bilborock, curated by The xx and Zinegoak.</h3>
+                          </div> 
+                      </div>
+                </div>
+                <div class="col-sm-6">
+                        <div class="col-md-12" id="fourthTickets">
+                        <img src="./img/2xx.png">
+                        <div class="description">
+                          <p>BIZKAIA ARETOA / 6 JULY</p>
+                          <h3>Night + Day Opening Party</h3>
+                        </div> 
+                    </div>
+                </div>
+
+  </section>
+<section class="container" id="feed">
+
+  <ul class="faq">
+      <h3>GENERAL INFO</h3>
+      <li>
+          <div class="dropdown">
+              <span>When and where is Night + Day?</span>
+              <div class="dropdown-content">
+              <p>Times / Horario
+                  5:00PM to/a 11:00PM
+                   <br>
+                  Location / Localización:
+                  Museo Guggenheim Bilbao</p>
+              </div>
+            </div>
+      </li>
+      <li>
+          <div class="dropdown">
+              <span>What are the festival dates?</span>
+              <div class="dropdown-content">
+              <p>Friday 6th - Wednesday 11th July 2018 in advance of The xx's headline set at BBK Live on Friday 13th July.</p>
+              </div>
+            </div>
+      </li>
+      <li>
+          <div class="dropdown">
+              <span>When do tickets go on sale?</span>
+              <div class="dropdown-content">
+                <p>Presales for The xx fans and BBK ticket holders begin on Wednesday 11th April at 12PM local time.
+
+                    General on sale begins Thursday 12th April at 10AM local time.
+                    
+                    The package option (BBK Live weekend pass and admission to Jamie xx at The Guggenheim) will be publicly available for purchase starting on Wednesday 11th April at 10AM local, when the presales open.</p>
+              </div>
+            </div>
+      </li>
+      
+  </ul>
+  <ul class="faq">
+      <h3>TICKETS</h3>
+      <li>
+          <div class="dropdown">
+              <span>I have an inquiry regarding the presales, who do I talk to?</span>
+              <div class="dropdown-content">
+              <p>Please direct these enquiries to [sales@lasttour.net]</p>
+              </div>
+            </div>
+      </li>
+      <li>
+          <div class="dropdown">
+              <span>Which outlets should I buy from?</span>
+              <div class="dropdown-content">
+              <p>Tickets will be available from fyrefestival.com</p>
+              </div>
+            </div>
+      </li>
+    </ul>
+    <ul class="faq">
+        <h3>GETTING HERE</h3>
+        <li>
+            <div class="dropdown">
+                <span>Where does Night + Day take place?</span>
+                <div class="dropdown-content">
+                <p>Night + Day Bilbao takes place at various venues across the city of Bilbao, Spain</p>
+                </div>
+              </div>
+        </li>
+        <li>
+            <div class="dropdown">
+                <span>How do I get to Bilbao?</span>
+                <div class="dropdown-content">
+                <p>Regular Bus:
+                    Airport-Bilbao: Bizkaibus Bus line A3247 connects to Bilbao city centre in 15 minutes from the airport:
+                    
+                    Schedule: Departure from Airport from 06:15AM to 00:00AM every 20 minutes
+                    
+                    Price: Single ticket 1.45€: more details here.
+                    
+                    Bus Stops: Bilbao Airport / Alameda Rekalde 11 (Bilbao) / Plaza Moyua (Bilbao) Gran Vía 79 (Bilbao) / Termibus (Bilbao Bus Station)</p>
+                </div>
+              </div>
+        </li>
+      </ul>
+</section>
+
+<section class="footer"> 
+<a href="#main" id="backToTop">BACK TO TOP</a>
+  <a href="#feed">NIGHTANDDAY.INFO</a>
+</section>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/three.js"></script>
+        <script src="js/OrbitControls.js"></script>
+        <script src="js/index.js"></script>
+	</body>
+</html>
